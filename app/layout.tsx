@@ -3,6 +3,7 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import Header from "@/components/Header";
+import CopyIndex from "@/components/Header/copyIndex";
 
 const poppins = Poppins({
   subsets: ["latin"],
